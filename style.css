@@ -1,0 +1,30 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 320px 200px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#board {
+    border: 2px solid #000;
+}
+
+.play-btn {
+    background-color: brown;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.play-btn:hover {
+    opacity: 0.8;
+}
